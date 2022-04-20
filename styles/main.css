@@ -18,3 +18,7 @@ h2 {
 .diff-font {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+a {
+  font-size: 17pt;
+  font-family: 'Bebas Neue', cursive;
+}

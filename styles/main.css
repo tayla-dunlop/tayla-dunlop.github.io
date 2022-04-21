@@ -4,6 +4,8 @@ body {
   Margin: 50px;
   border: 50px;
  padding: 70px;
+ padding-left: 20px;
+ border: 5px solid  
 }
 h1 {
   color: rgb(0, 0, 0);
@@ -26,12 +28,27 @@ a {
   font-family: 'Bebas Neue', cursive;
 }
 #rainbow2 {
-  color: orange;
+  color: rgb(182, 124, 16);
 }
 ul {
   text-align: left;
 }
 a {
-  
+  text-decoration: none;
+  font-weight: bolder;
 }
+#rainbow3 {
+  color: rgb(170, 151, 3)
+}
+#rainbow4 {
+  color: rgb(19, 180, 54)
+}
+.text-left {
+  text-align: left;
+}
+a:hover {
+  text-decoration: wavy;
+  background-color: rgb(223, 178, 223);
+}
+
 

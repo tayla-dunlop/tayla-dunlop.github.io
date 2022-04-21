@@ -1,13 +1,16 @@
 body {
   background-color: rgb(227, 195, 235);
   text-align: center;
+  Margin: 50px;
+  border: 50px;
+ padding: 70px;
 }
 h1 {
   color: rgb(0, 0, 0);
   margin-bottom: 5px;
 }
 h2 {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 #link {
   font-size: 20pt;
@@ -25,3 +28,8 @@ a {
 #rainbow2 {
   color: orange;
 }
+ul {
+  text-align: left;
+}
+
+

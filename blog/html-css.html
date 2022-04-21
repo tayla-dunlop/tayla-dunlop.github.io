@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tayla's blog</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+     </head>
+    <body>
+      <h2>What Are Classes And Ids?</h2>
+      <p>Classes and Ids Are a tool used in CSS to help style certain parts of your work. Lets say you want make all your headers the color red without having to make all your text on your website red, this is when classes and Ids 
+        would become your bestfriend. On this page I will go into slightly more depth about the difference of classes and Ids aswell as when you should either one. So Again, sit back, relax, and enjoy the ride!
+      </p>
+      <h2>How To Use a Class</h2>
+      <p>A class is exactly what you would think it is, a way to class/catagorise things. A class is typically used as a more broad catagory for elements compared
+        to Ids. For example, a class would be used to turn all the p elements font to monospace. 
+          <div>
+
+          </div>
+          Now, how do you actually create a class? I'm glad you asked! Lets follow a list of steps on how to do it!
+          <ul>
+            <li>Make sure you are in your CSS file</li>
+            <li>Decide on a class name (lets just call it diff font)</li>
+            <li>Create the class as shown: .Diff-font (with classes its very important to have the .)</li>
+            <li>Now, after the .diff-font you will put the fancy curly brackets {}</li>
+            <li>Inside the brackets you will chose what it is you want to do (in this case change a font)</li>
+            <li>In the curly brackets enter the following font-family: monospace;</li>
+            <li>After this you will now enter your html file and apply the class to any of your elements!</li>
+            <li>To apply to an element do the following class="diff-font" and away you go!</li>
+          </ul>
+          Here is a class example from wikihow.
+</p>
+          <img src="https://www.wikihow.com/images/thumb/5/53/Define-a-CSS-Class-Style-Step-4-Version-2.jpg/v4-460px-Define-a-CSS-Class-Style-Step-4-Version-2.jpg.webp">
+          <div>
+
+          </div>
+          <div>
+            <h2>How To Use an Id</h2>
+            <p>Ids are almost identical to classes, but there are slight differences, especially when it comes to applying them.
+              As mentioned above, classes are used to catagorise more broadly, whereas Ids are used to apply a certain styling rule to 
+              one particular element. Although this isnt a strict rule, it is common practice.
+              Now, creating an Id is the exact same as a class except for 1 important detail. This is that instead of using the period (.) at the beginning,
+              you use the hash (#). So now go forth you blossoming bird and create an Id using the list above and make changes as you need!
+              Below is an example of how to create an Id.
+            </p>
+            <img src="data:image/png;base64,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">
+          </div>
+          <h2>To Summerise</h2>
+          <p>
+            Overall, classes and Ids are very similar but there is a time when each of them should be used.
+            Classes should be used for broader catagorising such as header colors, text sizes, fonts and many more things.
+            Ids should be used for 1 element or one line, for example if you wanted to highlight a single line and make it red
+            an Id would be put to perfect use. <div>
+
+            </div>
+            I hope you enjoyed reading or better yet learnt something, Thank you!
+          </p>
+<a id="rainbow2" href="file:///Users/tayladunlop/tayla-dunlop.github.io/index.html">Back to Index Page</a>
+
+    </body>
+    </html>

@@ -93,3 +93,7 @@ a:hover {
   color: rgb(197, 20, 197);
 }
 
+.img-size {
+  width: 750px;
+  height: 200px;
+}

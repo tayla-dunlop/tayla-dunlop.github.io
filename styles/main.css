@@ -101,3 +101,24 @@ a:hover {
 #rainbow9 {
   color: rgb(83, 1, 160);
 }
+
+@media screen and (max-width: 320px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
